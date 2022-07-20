@@ -1,12 +1,15 @@
-mssql== 1.0.1
-pip== 22.1.2
-platformdirs== 2.5.2
-pyodbc== 4.0.34
-python-tds== 1.11.0
-pytz== 2022.1
-setuptools== 58.1.0
-six== 1.16.0
-SQLAlchemy== 1.4.39
-sqlparse== 0.4.2
-tzdata== 2022.1
-virtualenv== 20.15.1
+pip==22.1.2
+platformdirs==2.5.2
+pyodbc==4.0.34
+python-tds==1.11.0
+pytz==2022.1
+djangorestframework==3.13.1
+filelock==3.7.1
+greenlet==1.1.2
+mssql==1.0.1
+setuptools==58.1.0
+six==1.16.0
+SQLAlchemy==1.4.39
+sqlparse==0.4.2
+tzdata==2022.1
+virtualenv==20.15.1
