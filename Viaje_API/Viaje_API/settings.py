@@ -80,15 +80,12 @@ WSGI_APPLICATION = 'Viaje_API.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'sql_server.pyodbc',
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'AgenciaViaje',
-        'USER': 'sa',
+        'USER': 'postgres',
         'PASSWORD': '123456',
-        'HOST' : 'BLACKLION-PC\SQLEXPRESS',
+        'HOST' : 'localhost',
         'PORT':'',
-        'OPTIONS':{
-            'driver': 'ODBC Driver 17 for SQL Server'
-        }
     }
 }
 
@@ -117,13 +114,13 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 # https://docs.djangoproject.com/en/4.0/topics/i18n/
 
-LANGUAGE_CODE = 'en-us'
+# LANGUAGE_CODE = ''
 
-TIME_ZONE = 'UTC'
+# TIME_ZONE = ''
 
 USE_I18N = True
 
-USE_TZ = True
+USE_TZ = False
 
 
 # Static files (CSS, JavaScript, Images)

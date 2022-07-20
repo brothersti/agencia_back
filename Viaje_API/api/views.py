@@ -310,8 +310,8 @@ class ChoferBusView(View):
 # Metodo encargado de obterne todos los buses o un bus por el id
 
     def get(self, request):
-        query = 'SELECT IdBus, NumeroBus FROM [AgenciaViaje].[dbo].[api_bus] '\
-                'WHERE IdBus NOT IN(select IdBus_id from [AgenciaViaje].[dbo].[api_chofer])'
+        query = 'SELECT "IdBus", "NumeroBus" FROM api_bus '\
+                'WHERE "IdBus" NOT IN(select "IdBus_id" from api_chofer)'
         res = BusWithoutChofer(Bus.objects.raw(query), many=True).data
        
         datos = {'message': "Succes", 'buses': res}
