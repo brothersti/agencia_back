@@ -40,7 +40,8 @@ Una vez que el proyecto se haya descargado y se haya copiado el contenido a una 
     2- python manage.py migrate
     3- python manage.py runserver
     
-    Si en este punto le saldra algun error, procederé a ejecutar los comandos siguientes
+    Si en este punto le saldra algun error, procederé a ejecutar los comandos siguientes en esta dirección
+    "(env) cd c:\<carpeta_proyecto>\agencia-back-master\Viaje_API"
      -pip install django==2.2
      -pip install django-admin
      -pip install django-cors-headers
