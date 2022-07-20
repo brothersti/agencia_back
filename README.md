@@ -5,11 +5,21 @@ A continuación se explicarán los pasos a seguir para hacer funcionar el proyec
 
 El primer paso es instalar Python 3.10.5 desde la página https://www.python.org/downloads/release/python-3105/, se tiene que descargar el archivo que corresponda a las especificaciones de su sistema. Recuerde marcar la casilla de agregar python al PATH de su sistema.
 
-Para la instalación de las librerias de python:
+Una vez que el proyecto se descarga y se copia el contenido a una carpeta de proyecto, navegar al directorio de instalacion donde se haya guardado: cd c:\<carpeta_proyecto>\agencia-back-master\Viaje_API y empezar a instalar las dependencias.
+ 
+ ## Nota: 
+ 
+    1- Recuerda que el usuario debe tener permiso de administrador en las carpetas donde se guardo el proyecto
+    2- Que este permitido la ejecución de script en su maquina.
+
+## Para la instalación de las librerias de python:
 
     1- Abre un terminal 
-    2- Dirigirse al directorio donde se encuentra el archivo "requerimientos.txt". Esto está ubicado en la carpeta raiz del proyecto.
-    3- Instalar las librerías necesarias utilizando pip install -r requerimientos.txt en el terminal.
+    2- Dirigirse al directorio donde se encuentra el archivo "requerimientos.txt" (cd c:\<carpeta_proyecto>\agencia-back-master\Viaje_API). 
+       Esto está ubicado en la carpeta raiz del proyecto.
+    3- Despues ejecutar el comando pip install -r requerimientos.txt en la terminal para empezar a descargar las dependencias del proyecto.
+    4- Entra al directorio cd c:\<carpeta_proyecto>\agencia-back-master\ y ejecuta los comandos siguientes para crear un ambiente virtual
+        - 
 
 Base de datos
 
