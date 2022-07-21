@@ -5,7 +5,7 @@ A continuación se explicarán los pasos a seguir para hacer funcionar el proyec
 
 ## Base de datos
 
-La base de datos utilizado para este proyecto es pgAdmin de PostgreSQL para almacenar la información. Para descargarlo dirigese a la página oficial https://www.pgadmin.org/download/.
+La base de datos utilizado para este proyecto es pgAdmin de PostgreSQL para almacenar la información. Para descargarlo dirigese a la página oficial https://www.enterprisedb.com/downloads/postgres-postgresql-downloads. Realiza los pasos para que se genere el servidor automaticamente.
 
 Para que funciona el proyecto se recomienda poner la misma contraseña que se encuentra en el modulo c:\<carpeta_proyecto>\agencia-back-master\Viaje_API settings.py.
 
